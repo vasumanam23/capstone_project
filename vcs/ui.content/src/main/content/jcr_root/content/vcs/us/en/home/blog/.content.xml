@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2024-07-18T00:10:48.285+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/vcs/settings/wcm/templates/blog-page-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Blog"
+        sling:resourceType="vcs/components/home-page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="vcs/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="vcs/components/container">
+                <title
+                    jcr:created="{Date}2024-07-18T00:10:23.646+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2024-07-18T00:10:48.281+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Trending Posts"
+                    sling:resourceType="vcs/components/title"/>
+                <vcs_tags
+                    jcr:created="{Date}2024-07-17T21:36:39.718+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2024-07-17T21:36:39.718+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="vcs/components/vcs-tags">
+                    <tabslist-1
+                        jcr:lastModified="{Date}2024-07-17T21:37:31.928+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="vcs/components/vcs-taglist"
+                        header="[Featuer,Latest,Popular]"/>
+                    <tabslist-2
+                        jcr:lastModified="{Date}2024-07-17T21:38:10.617+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="vcs/components/vcs-taglist"
+                        header="[Most Viewed,Most Read,Most Recent]"/>
+                    <tabslist-two-1 jcr:primaryType="nt:unstructured">
+                        <imagetag-1
+                            jcr:lastModified="{Date}2024-07-17T22:41:28.709+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="vcs/components/vcs-imagetab">
+                            <tagList jcr:primaryType="nt:unstructured">
+                                <item0
+                                    jcr:primaryType="nt:unstructured"
+                                    img="/content/dam/vcs/logos/th (5).jpeg"
+                                    link="https://www.javatpoint.com/salesforce"
+                                    linkText="Salesforce is one of the best cloud-based CRM platforms"/>
+                                <item1
+                                    jcr:primaryType="nt:unstructured"
+                                    img="/content/dam/vcs/logos/th (3).jpeg"
+                                    link="https://www.oracletutorial.com/"
+                                    linkText="Oracle Date Functions"/>
+                                <item2
+                                    jcr:primaryType="nt:unstructured"
+                                    img="/content/dam/vcs/logos/th (7).jpeg"
+                                    link="https://www.javatpoint.com/spring-tutorial"
+                                    linkText="Spring is a lightweight framework."/>
+                            </tagList>
+                        </imagetag-1>
+                        <imagetag-3
+                            jcr:lastModified="{Date}2024-07-17T22:18:02.289+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="vcs/components/vcs-imagetab">
+                            <tagList jcr:primaryType="nt:unstructured">
+                                <item0
+                                    jcr:primaryType="nt:unstructured"
+                                    img="/content/dam/vcs/logos/2152859.png"
+                                    link="https://experienceleague.adobe.com/en/docs/experience-manager-learn/sites/overview"
+                                    linkText="Adobe Experience Manager"/>
+                            </tagList>
+                        </imagetag-3>
+                    </tabslist-two-1>
+                    <tabslist-two-2 jcr:primaryType="nt:unstructured">
+                        <imagetag-1
+                            jcr:lastModified="{Date}2024-07-17T22:46:06.755+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="vcs/components/vcs-imagetab">
+                            <tagList jcr:primaryType="nt:unstructured">
+                                <item0
+                                    jcr:primaryType="nt:unstructured"
+                                    img="/content/dam/vcs/logos/th (10).jpeg"
+                                    link="https://www.geeksforgeeks.org/hibernate-tutorial/"
+                                    linkText="Hibernate is a Java framework"/>
+                                <item1
+                                    jcr:primaryType="nt:unstructured"
+                                    img="/content/dam/vcs/logos/jquery-logo-1.png"
+                                    link="https://www.w3schools.com/jquery/"
+                                    linkText="jQuery is a JavaScript Library."/>
+                                <item2
+                                    jcr:primaryType="nt:unstructured"
+                                    img="/content/dam/vcs/logos/download.png"
+                                    link="https://business.adobe.com/products/target/adobe-target.html"
+                                    linkText="Adobe Analytics is a leading web technology"/>
+                            </tagList>
+                        </imagetag-1>
+                    </tabslist-two-2>
+                </vcs_tags>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

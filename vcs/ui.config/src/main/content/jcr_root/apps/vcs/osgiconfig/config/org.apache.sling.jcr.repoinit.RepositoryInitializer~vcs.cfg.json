@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/vcs",
+        "create path (nt:unstructured) /content/dam/vcs/jcr:content",
+        "set properties on /content/dam/vcs/jcr:content\n  set cq:conf{String} to /conf/vcs\n  set jcr:title{String} to \"Vcs\"\nend"
+    ]
+}

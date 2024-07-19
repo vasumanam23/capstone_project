@@ -1,0 +1,55 @@
+ <sly data-sly-use.clientlib="core/wcm/components/commons/v1/templates/clientlib.html">
+    <sly data-sly-call="${clientlib.all @ categories='oak01.base', async=true}"/>
+</sly>
+ 
+ <!-- Footer Start -->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-widget">
+                            <div data-sly-resource="${'footer-list-1' @resourceType='vcs/components/footer-list'}"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-3 col-md-6">
+                       <div data-sly-resource="${'footer-list-2' @resourceType='vcs/components/footer-list'}"></div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div data-sly-resource="${'footer-list-3' @resourceType='vcs/components/footer-list'}"></div>
+                    </div>
+                    
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-widget">
+                            <div data-sly-resource="${'footer-list-4' @resourceType='vcs/components/footer-list'}"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+        
+        <!-- Footer Menu Start -->
+        <div class="footer-menu">
+            <div class="container">
+                <div data-sly-resource="${'footer-list-5' @resourceType='vcs/components/footer-list'}"></div>
+            </div>
+        </div>
+        <!-- Footer Menu End -->
+
+        <!-- Footer Bottom Start -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 copyright">
+                        <p>Copyright &copy; <a href="https://htmlcodex.com">HTML Codex</a>. All Rights Reserved</p>
+                    </div>
+
+                    <div class="col-md-6 template-by">
+                        <p>Template By <a href="https://htmlcodex.com">HTML Codex</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer Bottom End -->

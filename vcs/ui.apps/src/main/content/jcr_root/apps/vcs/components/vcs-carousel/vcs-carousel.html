@@ -1,0 +1,24 @@
+<!-- Top News Start -->
+
+
+
+<sly data-sly-use.carousel="com.vcs.core.models.CarouselModel" />
+<div class="top-news">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 tn-left">
+                <div class="row tn-slider" data-sly-list.cards="${carousel.mfield}">
+                    <div class="col-md-12">
+                        <div class="tn-img">
+                            <img src="${cards.img}" alt="News Image" />
+                            <div class="tn-title">
+                                <a href="${cards.link}.html">${cards.text}</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Top News End -->

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2024-07-15T16:52:55.563+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/vcs/settings/wcm/templates/course-page-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="article-2"
+        sling:resourceType="vcs/components/home-page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="vcs/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:created="{Date}2024-06-28T18:35:26.458+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2024-06-28T18:35:31.708+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="vcs/components/container"/>
+        </root>
+    </jcr:content>
+</jcr:root>

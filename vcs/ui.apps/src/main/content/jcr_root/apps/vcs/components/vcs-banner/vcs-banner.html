@@ -1,0 +1,14 @@
+<sly data-sly-use.clientlib="core/wcm/components/commons/v1/templates/clientlib.html">
+    <sly data-sly-call="${clientlib.css @ categories='vcs.tabbanner', async=true}"/>
+</sly>
+
+<div class="cmp-banner" data-sly-use.banner="com.vcs.core.models.BannerModel">
+  <a href="${banner.link @ context='uri'}.html" class="cmp-banner__image">
+      <img src="${banner.img @ context='uri'}" alt="${banner.alt}">
+  </a>
+  <div class="cmp-banner__content">
+      <h2 class="cmp-banner__title">${banner.title}</h2>
+      <p class="cmp-banner__desc">${banner.desc @ context='html'}</p>
+  </div>
+</div>
+

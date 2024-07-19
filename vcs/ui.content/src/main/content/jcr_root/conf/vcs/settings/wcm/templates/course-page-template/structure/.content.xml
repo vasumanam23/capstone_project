@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:deviceGroups="[mobile/groups/responsive]"
+        cq:lastModified="{Date}2024-07-15T18:15:44.653+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/vcs/settings/wcm/templates/course-page-template"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="vcs/components/home-page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="vcs/components/container"
+            layout="responsiveGrid">
+            <experiencefragment
+                jcr:created="{Date}2024-07-15T17:47:15.528+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2024-07-15T17:47:34.343+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="vcs/components/experiencefragment"
+                fragmentVariationPath="/content/experience-fragments/vcs/us/en/site/header/master"/>
+            <container_1707602515
+                jcr:created="{Date}2024-07-15T18:05:52.747+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2024-07-15T18:05:52.747+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="vcs/components/container"
+                editable="{Boolean}true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="8"/>
+                </cq:responsive>
+            </container_1707602515>
+            <container_727211213
+                jcr:created="{Date}2024-07-15T18:08:17.181+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2024-07-15T18:08:17.181+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="vcs/components/container"
+                editable="{Boolean}true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="4"/>
+                </cq:responsive>
+            </container_727211213>
+            <container
+                jcr:created="{Date}2024-06-28T18:35:26.458+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2024-06-28T18:35:26.458+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="vcs/components/container"
+                editable="{Boolean}true"/>
+            <experiencefragment_1728850100
+                jcr:created="{Date}2024-07-15T17:48:54.804+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2024-07-15T17:49:13.388+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="vcs/components/experiencefragment"
+                fragmentVariationPath="/content/experience-fragments/vcs/us/en/site/footer/master"/>
+        </root>
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <phone
+                    jcr:primaryType="nt:unstructured"
+                    title="Smaller Screen"
+                    width="{Long}768"/>
+                <tablet
+                    jcr:primaryType="nt:unstructured"
+                    title="Tablet"
+                    width="{Long}1200"/>
+            </breakpoints>
+        </cq:responsive>
+    </jcr:content>
+</jcr:root>

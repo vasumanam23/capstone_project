@@ -1,0 +1,12 @@
+ 
+<sly data-sly-use.imagedata="com.vcs.core.models.TagListModel" />
+<div data-sly-list.data=${imagedata.tagList}>
+<div class="tn-news" >
+	<div class="tn-img">
+		<img src="${data.img}"/>
+	</div>
+	<div class="tn-title">
+		<a href="${data.link}">${data.linkText}</a>
+	</div>
+</div>
+</div>

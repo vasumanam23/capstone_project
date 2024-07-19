@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2024-07-18T00:02:55.478+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/vcs/settings/wcm/templates/course-page-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Courses"
+        sling:resourceType="vcs/components/home-page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="vcs/components/container"
+            layout="responsiveGrid">
+            <container_1707602515
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="vcs/components/container">
+                <vcs_banner
+                    jcr:created="{Date}2024-07-15T18:16:09.528+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2024-07-17T21:06:07.585+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="vcs/components/vcs-banner"
+                    alt="image not found"
+                    desc="&lt;p>&lt;b>Adobe Experience Manager (AEM)&lt;/b> is a comprehensive content management solution for building websites, mobile apps, and forms. It is part of the Adobe Marketing Cloud and is designed to help businesses deliver consistent and personalized digital experiences across various channels.&lt;/p>&#xd;&#xa;&lt;p>Adobe Experience Manager is a powerful and versatile content management solution that helps businesses deliver engaging and personalized digital experiences. Its robust features, scalability, and integration capabilities make it a preferred choice for enterprises looking to enhance their digital presence and improve customer engagement.&lt;/p>&#xd;&#xa;"
+                    img="/content/dam/vcs/logos/AEM.webp"
+                    link="/content/vcs/us/en/home/lesson"
+                    textIsRich="true"
+                    title="Adobe Experience Manager (AEM) Overview"/>
+                <vcs_banner_443420306
+                    jcr:created="{Date}2024-07-15T18:18:35.269+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2024-07-17T21:07:45.241+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="vcs/components/vcs-banner"
+                    alt="image not found"
+                    desc="&lt;p>&lt;b>Adobe Experience Platform (AEP)&lt;/b> is a comprehensive data management platform designed to unify, manage, and activate customer data to create personalized experiences at scale. It is the foundational layer for Adobe Experience Cloud products, providing real-time customer profiles, data integration, and intelligent decision-making capabilities.&lt;/p>&#xd;&#xa;&lt;p>Adobe Experience Platform is a powerful and flexible data management solution that empowers businesses to deliver personalized and engaging customer experiences at scale. Its robust features for data ingestion, management, activation, and analytics make it an essential tool for modern marketers seeking to leverage data to drive business growth and customer satisfaction.&lt;/p>&#xd;&#xa;"
+                    img="/content/dam/vcs/logos/Adobe-Experience-Platform.png"
+                    link="/content/vcs/us/en/home/articles/article-2"
+                    textIsRich="true"
+                    title="Adobe Experience Platform (AEP) Overview"/>
+                <vcs_banner_1874199857
+                    jcr:created="{Date}2024-07-15T18:20:59.411+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2024-07-15T18:20:59.411+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="vcs/components/vcs-banner"/>
+                <vcs_banner_1883988094
+                    jcr:created="{Date}2024-07-15T18:22:42.130+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2024-07-17T21:12:19.065+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="vcs/components/vcs-banner"
+                    alt="image not found"
+                    desc="&lt;p>&lt;b>Adobe Analytics&lt;/b> is a leading web analytics and marketing analytics solution that provides insights into customer behavior across digital channels. It helps businesses understand their audience, optimize marketing strategies, and improve overall digital experiences by analyzing data from websites, mobile apps, social media, and more.&lt;/p>&#xd;&#xa;&lt;p>Adobe Analytics is a powerful tool for businesses looking to gain a deep understanding of their digital audience and optimize their marketing efforts. Its robust features, real-time capabilities, and integration with other Adobe products make it an essential component of modern digital marketing strategies. By leveraging Adobe Analytics, businesses can deliver personalized experiences, improve customer engagement, and drive better business outcomes.&lt;/p>&#xd;&#xa;"
+                    img="/content/dam/vcs/logos/70cad08-adobe-analytics (1).png"
+                    link="/content/vcs/us/en/home/articles/article-3"
+                    textIsRich="true"
+                    title="Adobe Analytics Overview"/>
+                <vcs_banner_1103913978
+                    jcr:created="{Date}2024-07-15T18:26:41.864+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2024-07-17T21:20:12.388+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="vcs/components/vcs-banner"
+                    alt="image not found"
+                    desc="&lt;p>Deliver cross-channel marketing campaigns more efficiently with a new web-based UI, generative AI, and Adobe Experience Platform integrations.&lt;/p>&#xd;&#xa;"
+                    img="/content/dam/vcs/logos/adobe-campaign-adobe-experience-cloud.png"
+                    link="/content/vcs/us/en/home/articles/article-4"
+                    textIsRich="true"
+                    title="The latest innovations from Adobe Campaign."/>
+                <vcs_banner_1131187064
+                    jcr:created="{Date}2024-07-15T18:28:25.004+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2024-07-17T21:21:25.240+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="vcs/components/vcs-banner"
+                    alt="image not found"
+                    desc="&lt;p>Adobe Target delivers real-time connectivity to Adobe Experience Platform for improved insights and reporting. A new UI and generative AI tools help boost practitioner productivity.&lt;/p>&#xd;&#xa;"
+                    img="/content/dam/vcs/logos/download.png"
+                    textIsRich="true"
+                    title="The latest innovations for Adobe Target."/>
+            </container_1707602515>
+            <container_727211213
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="vcs/components/container"/>
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="vcs/components/container"/>
+            <container_1979839065
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="vcs/components/container"/>
+        </root>
+    </jcr:content>
+</jcr:root>

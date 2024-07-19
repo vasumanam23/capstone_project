@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="9d5c726e-c8e5-4a16-bcd5-61dea74630d9">
+    <jcr:content
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2024-07-15T16:33:05.523+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}32"
+            dam:Comments="date:create: 2020-03-13T19:22:41+00:00&#xa;date:modify: 2019-08-07T13:17:56+00:00&#xa;software: ImageMagick 6.8.9-9 Q16 x86_64 2019-11-12 http://www.imagemagick.org&#xa;Thumb::Document::Pages: 1&#xa;Thumb::Image::Height: 676&#xa;Thumb::Image::Width: 2400&#xa;Thumb::Mimetype: image/png&#xa;Thumb::MTime: 1565183876&#xa;Thumb::Size: 70.9KBB&#xa;Thumb::URI: file://jquery-logo-1.png&#xa;"
+            dam:extracted="{Date}2024-07-15T16:33:04.992+05:30"
+            dam:Fileformat="PNG"
+            dam:MIMEtype="image/png"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}10"
+            dam:Physicalheightindpi="{Long}92"
+            dam:Physicalheightininches="{Decimal}3.9174747467041016"
+            dam:Physicalwidthindpi="{Long}92"
+            dam:Physicalwidthininches="{Decimal}13.890214920043945"
+            dam:Progressive="no"
+            dam:sha1="004c3c6c8acc729b5baedf8dfa5bde83fec41841"
+            dam:size="{Long}47524"
+            dc:format="image/png"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}361"
+            tiff:ImageWidth="{Long}1280"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

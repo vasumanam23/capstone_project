@@ -1,0 +1,13 @@
+<sly data-sly-use.subpage="com.vcs.core.models.DetailsModel" />
+
+<div class="sn-container">
+    <div class="sn-img">
+        <img src="/content/dam/vcs/images/download%20(2).png" />
+    </div>
+    ${data.title}
+    <div class="sn-content" data-sly-list.data="${subpage.details}" >
+       <h1 class="sn-title">${data.title}</h1>
+       <p>${data.desc}</p>
+    </div>
+</div>
+

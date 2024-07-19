@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/vcs" mode="merge"/>
+    <filter root="/content/vcs" mode="merge"/>
+    <filter root="/content/dam/vcs/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/vcs" mode="merge"/>
+	<filter root="/content/dam/vcs/logos" mode="merge"/>
+	<filter root="/content/dam/vcs/images" mode="merge"/>
+</workspaceFilter>

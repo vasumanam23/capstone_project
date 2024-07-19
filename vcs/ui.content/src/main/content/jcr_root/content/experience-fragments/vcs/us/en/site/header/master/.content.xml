@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2024-07-15T16:39:32.688+05:30"
+        cq:lastModifiedBy="admin"
+        cq:tags="[]"
+        cq:template="/conf/vcs/settings/wcm/templates/xf-web-variation"
+        cq:xfMasterVariation="{Boolean}true"
+        cq:xfVariantType="web"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Header"
+        sling:resourceType="vcs/components/xfpage">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="vcs/components/container"
+            layout="simple">
+            <primary_header
+                jcr:created="{Date}2024-07-15T16:35:53.315+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2024-07-15T16:37:01.092+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="vcs/components/primary-header"
+                trainingDesc="Surge Software Solutions"
+                trainingText="Aem"/>
+            <secondary_header
+                jcr:created="{Date}2024-07-15T16:36:01.256+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2024-07-15T16:39:32.597+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="vcs/components/secondary-header"
+                languages="[English,Hindi,Telugu]"
+                logo="/content/dam/vcs/logos/AEM.webp"/>
+            <oak_nav
+                jcr:created="{Date}2024-07-15T16:36:13.689+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2024-07-15T16:36:30.656+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="vcs/components/oak-nav"
+                collectAllPages="true"
+                disableShadowing="false"
+                navigationRoot="/content/vcs/us/en/home"
+                structureStart="1"/>
+            <logo/>
+        </root>
+    </jcr:content>
+</jcr:root>

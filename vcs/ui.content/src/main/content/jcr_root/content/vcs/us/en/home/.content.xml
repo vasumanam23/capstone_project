@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2024-07-18T21:08:25.107+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/vcs/settings/wcm/templates/home-page-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Home"
+        sling:resourceType="vcs/components/home-page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="vcs/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="vcs/components/container">
+                <vcs_readmode
+                    jcr:created="{Date}2024-07-16T18:08:17.288+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2024-07-16T19:32:14.089+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="vcs/components/vcs-readmode"
+                    desc="[welcome to surge ,welcome to surge ,welcome to surge ,welcome to surge,welcome to oak,read java for aem]"
+                    title="Get in Tocuh">
+                    <cardField jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            cardText="welcome"
+                            img="/content/dam/vcs/logos/jquery-logo-1.png"/>
+                    </cardField>
+                </vcs_readmode>
+                <searchbar
+                    jcr:created="{Date}2024-07-17T11:13:01.953+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2024-07-17T11:13:01.953+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="vcs/components/searchbar"/>
+                <vcs_carousel
+                    jcr:created="{Date}2024-07-16T15:56:45.020+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2024-07-18T00:19:35.256+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="vcs/components/vcs-carousel"
+                    img="[/content/dam/vcs/images/img3.jpeg,/content/dam/vcs/images/img10.jpeg]"
+                    link="[,]"
+                    text="[welcome to surge software solutions,wertyuiop]">
+                    <mfield jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            img="/content/dam/vcs/logos/Adobe-Experience-Platform.png"
+                            link="/content/vcs/us/en/home/courses"
+                            text="Adobe Experience Platform"/>
+                        <item1
+                            jcr:primaryType="nt:unstructured"
+                            img="/content/dam/vcs/logos/70cad08-adobe-analytics (1).png"
+                            link="/content/vcs/us/en/home/courses"
+                            text="Adobe Analytics"/>
+                        <item2
+                            jcr:primaryType="nt:unstructured"
+                            img="/content/dam/vcs/logos/adobe-campaign-adobe-experience-cloud.png"
+                            link="/content/vcs/us/en/home/courses"
+                            text="Adobe Campaign"/>
+                    </mfield>
+                </vcs_carousel>
+                <vcs_cardslist
+                    jcr:created="{Date}2024-07-17T10:24:54.773+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2024-07-18T16:31:38.456+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="vcs/components/vcs-cardslist"
+                    desc="[Complete Core Java Tutorial,JavaScript is the world's most popular programming language.,MySQL is ideal for both small and large applications.,Adobe Experience Manager (AEM) is a comprehensive content management solution for building websites\, mobile apps\, and forms. ,Learn Oracle Database fast and easily.,Spring is a lightweight framework.,Salesforce is one of the best cloud-based CRM platforms.]"
+                    title="All Courses">
+                    <cardField jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            img="/content/dam/vcs/logos/java-icon-image-10.jpg"
+                            link="https://www.javatpoint.com/java-tutorial"/>
+                        <item1
+                            jcr:primaryType="nt:unstructured"
+                            img="/content/dam/vcs/logos/png-javascript-badge-picture-8.png"
+                            link="https://www.w3schools.com/js/DEFAULT.asp"/>
+                        <item2
+                            jcr:primaryType="nt:unstructured"
+                            img="/content/dam/vcs/logos/jquery-icon-png-5.jpg"
+                            link="https://www.w3schools.com/mysql/"/>
+                        <item3
+                            jcr:primaryType="nt:unstructured"
+                            img="/content/dam/vcs/logos/th.jpeg"
+                            link="https://experienceleague.adobe.com/en/docs/experience-manager-tutorials"/>
+                        <item4
+                            jcr:primaryType="nt:unstructured"
+                            img="/content/dam/vcs/logos/th (1).jpeg"
+                            link="https://www.oracletutorial.com/"/>
+                        <item5
+                            jcr:primaryType="nt:unstructured"
+                            img="/content/dam/vcs/logos/th (11).jpeg"
+                            link="https://www.javatpoint.com/spring-tutorial"/>
+                        <item6
+                            jcr:primaryType="nt:unstructured"
+                            img="/content/dam/vcs/logos/th (10).jpeg"
+                            link="https://www.oracletutorial.com/"/>
+                        <item7
+                            jcr:primaryType="nt:unstructured"
+                            img="/content/dam/vcs/logos/jquery-logo-1.png"
+                            link="https://www.oracletutorial.com/"/>
+                        <item8
+                            jcr:primaryType="nt:unstructured"
+                            img="/content/dam/vcs/logos/th (5).jpeg"
+                            link="https://www.oracletutorial.com/"/>
+                    </cardField>
+                </vcs_cardslist>
+            </container>
+        </root>
+    </jcr:content>
+    <courses/>
+    <lesson/>
+    <blog/>
+    <articles/>
+</jcr:root>

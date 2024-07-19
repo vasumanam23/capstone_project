@@ -1,0 +1,36 @@
+
+<sly data-sly-use.clientlib="core/wcm/components/commons/v1/templates/clientlib.html">
+    <sly data-sly-call="${clientlib.css @ categories='vcs.nav'}"/>
+</sly>
+
+<sly data-sly-use.navigation="com.adobe.cq.wcm.core.components.models.Navigation" />
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Component</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<nav>
+    <ul data-sly-list.nav="${navigation.items}">
+        <li data-sly-test="${nav.children.size==0}"><a  href="${nav.page.path}.html">${nav.page.title}</a></li>
+
+        <li class="dropdown" data-sly-test="${nav.children.size>0}">
+            <a href="${nav.page.path}.html">${nav.page.title} &#9660;</a>
+            <ul class="dropdown-content" data-sly-list.childNav="${nav.children}">
+                <li><a href="${childNav.page.path}.html">${childNav.page.title}</a></li>
+            </ul>
+        </li>
+
+    </ul>
+</nav>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+

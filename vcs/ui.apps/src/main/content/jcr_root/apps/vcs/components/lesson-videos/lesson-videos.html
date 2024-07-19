@@ -1,0 +1,34 @@
+<!-- Add this at the beginning of your HTML file to use the Sling Model -->
+<sly data-sly-use.videoPlayList="com.vcs.core.models.VideoPlayListModel" />
+
+<!-- The rest of your HTML with the video list rendering -->
+<div class="owl-carousel owl-theme" id="slider3" data-sly-list.video="${videoPlayList.videoList}">
+    <div class="item px-2">
+        <div class="fh5co_hover_news_img">
+            <div class="fh5co_hover_news_img_video_tag_position_relative">
+                <div class="fh5co_news_img">
+                    ${video.html @context='html'}
+                </div>
+                <div class="fh5co_hover_news_img_video_tag_position_absolute fh5co_hide">
+                    <img src="${video.thumbnailUrl}" alt=""/>
+                </div>
+                <div class="fh5co_hover_news_img_video_tag_position_absolute_1 fh5co_hide" id="play-video">
+                    <div class="fh5co_hover_news_img_video_tag_position_absolute_1_play_button_1">
+                        <span class="fh5co_hover_news_img_video_tag_position_absolute_1_play_button"><i class="fa fa-play"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pt-2">
+            <a href="#" class="d-block fh5co_small_post_heading fh5co_small_post_heading_1">
+                <span class="">${video.title}</span>
+            </a>
+            <div class="g"><i class="fa fa-clock-o"></i></div>
+        </div>
+    </div>
+</div>
+
+
+<sly data-sly-use.clientlib="core/wcm/components/commons/v1/templates/clientlib.html">
+    <sly data-sly-call="${clientlib.all @ categories='vcs.video', async=true}"/>
+</sly>

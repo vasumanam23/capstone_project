@@ -1,0 +1,24 @@
+<sly data-sly-use.slider="com.vcs.core.models.SliderModel" />
+
+<div class="single-news">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div data-sly-resource="${'subpage-1' @resourceType='vcs/components/vcs-subpage'}"/>
+				<div class="sn-related">
+					<h2>Related News</h2>
+					<div class="row sn-slider" data-sly-list.one="${slider.mfield}">
+						<div class="col-md-8">
+							<div class="sn-img">
+								<img src="${one.img}"/>
+								<div class="sn-title">
+									<a href="${one.link}">${one.linkText}</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

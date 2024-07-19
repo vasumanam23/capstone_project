@@ -1,0 +1,40 @@
+.cmp-banner {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px; /* Adjust if you have specific container padding */
+}
+
+.cmp-banner__image {
+    flex: 1 1 50%; /* 6 columns */
+    position: relative;
+    padding: 15px; /* Adjust if you have specific container padding */
+    box-sizing: border-box;
+    display: block; /* Ensure anchor tag takes block-level */
+}
+
+.cmp-banner__image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.cmp-banner__content {
+    flex: 1 1 50%; /* 6 columns */
+    padding: 15px; /* Adjust if you have specific container padding */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center title and description vertically */
+}
+
+.cmp-banner__title {
+    font-size: 24px; /* Adjust as necessary */
+    margin-bottom: 10px;
+}
+
+.cmp-banner__desc {
+    font-size: 16px; /* Adjust as necessary */
+    margin-bottom: 20px;
+}
+
+/* Remove button styles */

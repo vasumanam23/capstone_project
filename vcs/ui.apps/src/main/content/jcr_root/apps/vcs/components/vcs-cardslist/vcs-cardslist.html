@@ -1,0 +1,30 @@
+<!-- Main News Start-->
+<sly data-sly-use.cards="com.vcs.core.models.CardsModel" />
+        <div class="main-news">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-9">
+                        <div class="row" data-sly-list.tab="${cards.cardField}">
+                            <div class="col-md-4" >
+                                <div class="mn-img">
+                                    <img src="${tab.img}" />
+                                    <div class="mn-title">
+                                        <a href="${tab.link}">Leanr More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <div class="mn-list">
+                            <h2>${cards.title}</h2>
+                            <ul data-sly-list="${cards.desc}">
+                                <li><a href="#">${item}</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Main News End-->

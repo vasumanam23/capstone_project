@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2024-07-18T21:56:18.201+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/vcs/settings/wcm/templates/lesson-page-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Lesson"
+        sling:resourceType="vcs/components/home-page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="vcs/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="vcs/components/container">
+                <title
+                    jcr:created="{Date}2024-07-17T22:54:43.754+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2024-07-17T22:57:42.705+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Training Videos"
+                    sling:resourceType="vcs/components/title"
+                    linkTarget="_self"
+                    type="h1"/>
+                <vcs_slider
+                    jcr:created="{Date}2024-07-18T21:17:05.710+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2024-07-18T21:56:18.197+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="vcs/components/vcs-slider">
+                    <subpage-1
+                        jcr:lastModified="{Date}2024-07-18T21:23:06.681+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="vcs/components/vcs-subpage">
+                        <details jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                desc="Surge Software Solutions is proud to be an Adobe implementation partner, providing expert integration and support for Adobe Experience Cloud. We offer comprehensive upskilling programs for both corporate teams and individuals looking to enhance their Adobe skills. Additionally, we serve as a trusted vendor, supplying our highly skilled resources to other companies to assist with their projects, ensuring seamless execution and exceptional results. Surge Software Solutions is strategically located in both Bangalore, India, and Texas, USA, providing round-the-clock support to our global clientele."
+                                title="Your Partner for Expert Adobe Experience Cloud Solutions."/>
+                            <item1
+                                jcr:primaryType="nt:unstructured"
+                                desc="At Surge Software Solutions, we specialize in empowering businesses through our expertise in Adobe solutions. As an Adobe implementation partner, we seamlessly integrate and support Adobe Experience Cloud products, ensuring optimized digital experiences. Our comprehensive upskilling programs cater to both corporate teams and individuals, enhancing proficiency in Adobe Experience Manager and other key Adobe products. Additionally, we serve as a trusted talent provider, deploying skilled professionals to support client projects, ensuring seamless execution and exceptional results. With a commitment to innovation and client satisfaction, Surge Software Solutions is your partner for comprehensive digital solutions and support."
+                                title="Delivering Solutions for Your Business"/>
+                        </details>
+                    </subpage-1>
+                    <mfield jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            img="/content/dam/vcs/logos/th.jpeg"
+                            link="/content/vcs/us/en/home/blog"
+                            linkText="aem"/>
+                        <item1
+                            jcr:primaryType="nt:unstructured"
+                            img="/content/dam/vcs/logos/th (9).jpeg"
+                            link="/content/vcs/us/en/home/courses"
+                            linkText="Spring"/>
+                        <item2
+                            jcr:primaryType="nt:unstructured"
+                            img="/content/dam/vcs/logos/th (2) - Copy.jpeg"
+                            link="/content/vcs/us/en/home/articles"
+                            linkText="Oracle"/>
+                        <item3
+                            jcr:primaryType="nt:unstructured"
+                            img="/content/dam/vcs/images/th (12).jpeg"
+                            link="/content/vcs/us/en/home/articles/article-1"
+                            linkText="salesforse"/>
+                        <item4
+                            jcr:primaryType="nt:unstructured"
+                            img="/content/dam/vcs/images/th (16).jpeg"
+                            link="/content/vcs/us/en/home/articles/article-2"
+                            linkText="java"/>
+                    </mfield>
+                </vcs_slider>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,11 @@
+<sly data-sly-use.clientlib="core/wcm/components/commons/v1/templates/clientlib.html">
+    <sly data-sly-call="${clientlib.all @ categories='vcs.banner', async=true}"/>
+</sly>
+<sly data-sly-use.articleBanner="com.vcs.core.models.ArticleBannerModel" />
+    <div class="banner-container">
+        <img src="${articleBanner.bannerImage}" alt="Free HTML5 by FreeHTML5.co">
+        <div class="banner-content">
+            <span>${articleBanner.createdDateStr}</span>
+            <h2>${articleBanner.bannerText}</h2>
+        </div>
+    </div>

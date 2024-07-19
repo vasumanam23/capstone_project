@@ -1,0 +1,32 @@
+<sly data-sly-use.clientlib="core/wcm/components/commons/v1/templates/clientlib.html">
+    <sly data-sly-call="${clientlib.css @ categories='vcs.coursedetails', async=true}"/>
+</sly>
+
+<div class="course-list">
+    <h2>${properties.title}</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Course</th>
+                <th>Faculty</th>
+                <th>Date</th>
+                <th>Time</th>
+                <th>Course Content</th>
+                <th>Demo Link</th>
+            </tr>
+        </thead>
+        <tbody>
+            <sly data-sly-list.course="${properties['courses']}">
+                <tr>
+                    <td>${course.courseName}</td>
+                    <td>${course.faculty}</td>
+                    <td>${course.date}</td>
+                    <td>${course.time}</td>
+                    <td><a href="${course.courseContent}">Course Content</a></td>
+                    <td><a href="${course.demoLink}">Demo Link</a></td>
+                </tr>
+            </sly>
+        </tbody>
+    </table>
+</div>
+
